@@ -1,0 +1,63 @@
+/** 清除内外边距 **/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+    margin: 0;
+    padding: 0;
+}
+
+/** 设置默认字体 **/
+body,
+button, input, select, textarea /* for ie */ {
+    font: 12px/1.5 tahoma, arial, \5FAE\8F6F\96C5\9ED1, \5b8b\4f53, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/** 重置列表元素 **/
+ul, ol { list-style: none; }
+
+/** 重置文本格式元素 **/
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+
+body { overflow-x: hidden; }
+ul { width:240px; }
+#onekey{ text-indent:68px;background:url(icon32.png) no-repeat 40px 50%;-webkit-background-size: 22px 22px;}
+#onekey:hover{background-image:url(all.png);background-color:#666666; color: #fff; border-color:#000;}
+ul li { text-indent: 32px; overflow:hidden; border: 1px solid #cccccc; height: 30px; line-height: 30px; margin-top: 3px; cursor: pointer; -webkit-border-radius: 4px;}
+
+.enabled { background:url(enabled.png) no-repeat 6px 50%; -webkit-background-size: 16px 16px; -webkit-transition: all 0.3s ease-in-out;}
+.enabled:hover{ background:url(disabled.png) no-repeat 6px 50% #666666; color: #fff; border-color:#000; -webkit-background-size: 16px 16px; -webkit-transition: all 0.3s ease-in-out;}
+
+.disabled { background:url(disabled.png) no-repeat 6px 50% #666666; color: #fff; border: 1px solid #666666; -webkit-background-size: 16px 16px; -webkit-transition: all 0.3s ease-in-out;}
+.disabled:hover { background:url(enabled.png) no-repeat 6px 50%; color: #000; -webkit-background-size: 16px 16px; -webkit-transition: all 0.3s ease-in-out;}
+
+::-webkit-scrollbar {
+	width: 10px;
+	height:10px;
+	background-color: #FFF;
+}
+::-webkit-scrollbar-track-piece  {
+	background-color: #CACFDE;
+	-webkit-border-radius: 5px;
+}
+
+:-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment  {
+	height: 30px;
+	display: block;
+	background-color: #FAA;
+}
+::-webkit-scrollbar-thumb:vertical {
+	height: 50px;
+	background: -webkit-gradient(linear, right top, left top,color-stop(0.0, #F7F8FF),color-stop(1.0, #FFF));
+	border: 1px solid #CACFDE;
+	-webkit-border-radius: 5px;
+}
+

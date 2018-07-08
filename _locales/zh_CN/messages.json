@@ -1,0 +1,38 @@
+{
+  "extname": {
+    "message": "一键管理所有扩展",
+    "description": "Extension name."
+  },
+  "onekeydisable": {
+    "message": "禁用所有扩展",
+    "description": "Click this item to disable all extensions"
+  },
+  "onekeyenable": {
+    "message": "启用原有扩展",
+    "description": "Click this item to enable all extensions"
+  },
+  "leftclicktodisablethis": {
+    "message": "单击左键禁用该扩展，",
+    "description": "Left-click to disable this extension or "
+  },
+  "leftclicktoenablethis": {
+    "message": "单击左键启用该扩展，",
+    "description": "Left-click to enable this extension or "
+  },
+  "rightclicktouninstallthis": {
+    "message": "单击右键卸载该扩展",
+    "description": "Right-click to uninstall this extension."
+  },
+  "areyousuretouninstallthis": {
+    "message": "确定要卸载扩展：",
+    "description": "Are you sure to uninstall the entension : "
+  },
+  "textindent":{
+    "message": "80px",
+    "description": ""
+  },
+  "iconx":{
+    "message": "55px",
+    "description": ""
+  }
+}
