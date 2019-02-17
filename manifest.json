@@ -10,6 +10,7 @@
     "default_title": "__MSG_extname__",
     "default_popup": "popup.html"
   },
+  "short_name": "__MSG_extname__",
   "description": "one key management chrome extensions",
   "icons": {
     "32": "icon32.png",
